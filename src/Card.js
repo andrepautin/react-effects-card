@@ -6,8 +6,10 @@ import React from "react";
  * 
  * Deck -> Card
  */
-function Card() {
-  
+function Card({name, image}) {
+  return (
+    <img alt={name} src={image}/>
+  )
 }
 
 export default Card;
